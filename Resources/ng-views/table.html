@@ -1,0 +1,60 @@
+<img 
+    class="loading"
+    ng-src="Resources/images/ajax-loader.gif"
+    ng-if="table.data.isLoading"
+    />
+
+<div 
+    class=""
+    ng-if="table.data.isLoading == false"
+    >
+    <div>
+        <table class="text-left text-gray-md">
+            <thead>
+                <tr class="text-xs"
+                    >
+                    <th
+                        ng-repeat="key in table.keys"
+                        ng-click="table.order.set(key)"
+                        class="bg-gray-light text-white text-thin"
+                        ng-class="{
+                            selected    : table.order.latestInput === key,
+                            reversed    : table.order.latestInput === key && table.order.reverse
+                        }"
+                    >   
+                        <span>{{key}}</span>
+                        <span class="table-arrow"></span>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr 
+                    class="text-block text-xxs"
+                    ng-repeat="
+                        row in table.all | orderBy   : table.order.value : table.order.reverse"
+                    >
+
+                    <td 
+                        ng-repeat="key in table.keys"
+                        class="bg-white-almost"
+                        >
+                        <span 
+                            ng-if="typeOf(row[key]) != 'object'">
+                            {{ row[key] }}
+                        </span>
+                        <div 
+                            ng-if="typeOf(row[key]) == 'object' "
+                            >
+                            <div
+                                ng-repeat="k in row[key]"
+                            >
+                                <a href="{{k.link}}">{{k.text}}</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

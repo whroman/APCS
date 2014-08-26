@@ -1,0 +1,49 @@
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+th {
+    cursor: pointer;
+}
+
+td, th {
+    padding: 8px 14px;
+    position: relative;
+}
+
+tbody tr:not(:first-of-type) {
+    border-top: 1px solid $gray-xlight;
+}
+
+.table-arrow {
+    font-size: 10px;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.selected {
+    background-color: $gray-md-light;
+
+    .table-arrow {
+        display: inline-block;
+        border-left: .6em solid transparent;
+        border-right: .6em solid transparent;
+        border-bottom: 0 solid transparent;
+        border-top: 1em solid $gray-light;
+    }
+
+    &.reversed {
+        .table-arrow {
+            display: inline-block;
+            border-left: .6em solid transparent;
+            border-right: .6em solid transparent;
+            border-bottom: 1em solid $gray-light;
+            border-top: 0 solid transparent;
+        }
+    }
+}

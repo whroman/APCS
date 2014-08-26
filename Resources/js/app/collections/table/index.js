@@ -1,0 +1,85 @@
+angular
+.module('CollectionTable', [
+    // Dependencies
+
+])
+.factory("CollectionTable", function($http, $filter, $location) {
+    function Table () {
+    // Used for filtering
+        var filter = {
+            val : ''
+        };
+
+    // `all` is filled by ajax request
+        var all = [];
+
+    // `queried` is filled when `all` is filtered
+        var queried = [];
+
+    // Is set to false once data is loaded. While `true`, a loading gif shows in place of table
+        var data = {
+            isLoading : true,
+        };
+
+    // List of keys that are properties for each object in `schools`
+        var keys = [];
+
+        var setKeys = function(arr) {
+            var i = 0;
+            var arrLen = arr.length;
+            var key;
+            for (i; i < arrLen; i++) {
+                for (key in arr[i]) {
+                    if (this.keys.indexOf(key) === -1) {
+                        this.keys.push(key);
+                    }
+                }
+            }
+        };
+
+        var order = {
+            value   :  null,
+            latestInput : null,
+            reverse : false,
+            set     : function(key) {
+                this.latestInput = key;
+                doubleQuotedKey = "'" + key + "'";
+                if (this.value === doubleQuotedKey) {
+                    this.reverse = !this.reverse; 
+                } else {
+                    this.value = doubleQuotedKey;
+                }
+                return this;
+            }
+        };
+
+        var fetch = function(path) {
+            var This = this;
+            $http
+                .get(path)
+                .error(function() {
+                    throw ("Could not load JSON: " + error);
+                })
+                .success(function(data) {
+                    This.all = data;
+                    This.setKeys(data);
+                    This.order.value = This.keys[0];
+                    console.log(This.keys[0]);
+                    This.data.isLoading = false;
+                });
+            return this;
+        };
+
+        return {
+            data : data,
+            keys : keys,
+            setKeys: setKeys,
+            all : all,
+            filter : filter,
+            order : order,
+            fetch : fetch,
+        };
+    }
+
+    return Table;
+});

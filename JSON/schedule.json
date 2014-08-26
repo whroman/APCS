@@ -1,0 +1,98 @@
+[
+    {
+        "Week": 1,
+        "Reading": "",
+        "Resources": [
+            {
+                "text": "Syllabus",
+                "link": "https://docs.google.com/document/d/1D8PsGkTGBt5Pp4A7NXp9f2ik1XiaEVPgAuWP9qL8fcc/pub"
+            },
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
+            }
+        ]
+    },
+    {
+        "Week": 2,
+        "Reading": "Ch 1",
+        "Resources": [
+            {
+                "text": "Setting Up Your Development Environment",
+                "link": "https://docs.google.com/document/d/1D8PsGkTGBt5Pp4A7NXp9f2ik1XiaEVPgAuWP9qL8fcc/pub"
+            },
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
+            },
+            {
+                "text": "PracticeIt! Ch 1 Problems",
+                "link": ""
+            },
+            {
+                "text": "Ch 1 Quiz + Solutions",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "Week": 3,
+        "Reading": "Ch 2.1",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 4,
+        "Reading": "Ch 2.2",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 5,
+        "Reading": "Ch 2.3, 2.4",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 6,
+        "Reading": "Ch 3.1, 3.2, 4.1, 5.3",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 7,
+        "Reading": "Ch 3.3, 4.2",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 8,
+        "Reading": "",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 9,
+        "Reading": "",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 10,
+        "Reading": "",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 11,
+        "Reading": "",
+        "Resources": [
+        ]
+    },
+    {
+        "Week": 12,
+        "Reading": "",
+        "Resources": [
+        ]
+    }
+]

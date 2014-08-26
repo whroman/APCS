@@ -1,0 +1,153 @@
+$header-width: 614px;
+$body-width: 774px;
+$col-padding: 20px;
+
+.body-column-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-column {
+    padding: 0 $col-padding;
+    width: $header-width;
+    margin: 0 auto;
+}
+
+.body-column {
+    padding: 0 $col-padding;
+    width: $body-width;
+    margin: 0 auto;
+}
+
+$gutter: 3px;
+$half-gutter: $gutter / 2;
+
+$col-24-width: (100% * 24/24);
+$col-23-width: (100% * 23/24);
+$col-22-width: (100% * 22/24);
+$col-21-width: (100% * 21/24);
+$col-20-width: (100% * 20/24);
+$col-19-width: (100% * 19/24);
+$col-18-width: (100% * 18/24);
+$col-17-width: (100% * 17/24);
+$col-16-width: (100% * 16/24);
+$col-15-width: (100% * 15/24);
+$col-14-width: (100% * 14/24);
+$col-13-width: (100% * 13/24);
+$col-12-width: (100% * 12/24);
+$col-11-width: (100% * 11/24);
+$col-10-width: (100% * 10/24);
+$col-9-width: (100% * 9/24);
+$col-8-width: (100% * 8/24);
+$col-7-width: (100% * 7/24);
+$col-7-width: (100% * 7/24);
+$col-6-width: (100% * 6/24);
+$col-5-width: (100% * 5/24);
+$col-4-width: (100% * 4/24);
+$col-3-width: (100% * 3/24);
+$col-2-width: (100% * 2/24);
+$col-1-width: (100% * 1/24);
+
+.col-wrapper {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+    display: block;
+    margin: 0 auto;
+
+    > [class*="col-"] {
+        float: left;
+        padding-left: $gutter;
+        padding-right: $gutter;
+        box-sizing: border-box;
+        min-height: 1px;
+
+        &:last-of-type {
+            float: right;
+        }
+
+        &.gutter-double {
+            padding-left: $gutter * 2;
+            padding-right: $gutter * 2;
+        }
+
+        &.gutter-none {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    > .col-24 {
+        width: $col-24-width;
+    }
+    > .col-23 {
+        width: $col-23-width;
+    }
+    > .col-22 {
+        width: $col-22-width;
+    }
+    > .col-21 {
+        width: $col-21-width;
+    }
+    > .col-20 {
+        width: $col-20-width;
+    }
+    > .col-19 {
+        width: $col-19-width;
+    }
+    > .col-18 {
+        width: $col-18-width;
+    }
+    > .col-17 {
+        width: $col-17-width;
+    }
+    > .col-16 {
+        width: $col-16-width;
+    }
+    > .col-15 {
+        width: $col-15-width;
+    }
+    > .col-14 {
+        width: $col-14-width;
+    }
+    > .col-13 {
+        width: $col-13-width;
+    }
+    > .col-12 {
+        width: $col-12-width;
+    }
+    > .col-11 {
+        width: $col-11-width;
+    }
+    > .col-10 {
+        width: $col-10-width;
+    }
+    > .col-9 {
+        width: $col-9-width;
+    }
+    > .col-8 {
+        width: $col-8-width;
+    }
+    > .col-7 {
+        width: $col-7-width;
+    }
+    > .col-6 {
+        width: $col-6-width;
+    }
+    > .col-5 {
+        width: $col-5-width;
+    }
+    > .col-4 {
+        width: $col-4-width;
+    }
+    > .col-3 {
+        width: $col-3-width;
+    }
+    > .col-2 {
+        width: $col-2-width;
+    }
+    > .col-1 {
+        width: $col-1-width;
+    }
+}
