@@ -64,7 +64,6 @@ angular
                     This.all = data;
                     This.setKeys(data);
                     This.order.value = This.keys[0];
-                    console.log(This.keys[0]);
                     This.data.isLoading = false;
                 });
             return this;
