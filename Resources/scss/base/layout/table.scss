@@ -27,7 +27,7 @@ tbody tr:not(:first-of-type) {
 }
 
 .selected {
-    background-color: $gray-md;
+    background-color: $gray-dark;
 
     .table-arrow {
         display: inline-block;
