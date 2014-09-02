@@ -39,6 +39,18 @@
         "Week": 3,
         "Reading": "Ch 2.1",
         "Resources": [
+            {
+                "text": "Cool Bytes",
+                "link": "https://docs.google.com/document/d/1kHdcl3vbTnsdU2ipnKLnmNvEJQDZiwvtR5-ptUiVxT0/pub"
+            },
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/19Qk_64HHzV-5b7OSJprhojL9YajeUkNpbbr5lsL26Fk/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "Homework",
+                "link": "https://docs.google.com/document/d/1kF4GnwZ0H0ChzZ_BI8lnJACyyY-Fu2Q5Wrg1-VBBtL0/pub"
+            },
         ]
     },
     {
