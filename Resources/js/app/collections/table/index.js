@@ -71,7 +71,7 @@ angular
 
         var startEpochTimeMS = 1407740401000;
         var currentWeek = function(startTimeMS) {
-            var currentTimeMS = (new Date).getTime();
+            var currentTimeMS = (new Date()).getTime();
             var oneWeekMS = 604800000;
             var week = Math.ceil((currentTimeMS - startTimeMS) / oneWeekMS);
             return week;
