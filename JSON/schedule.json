@@ -58,6 +58,14 @@
         "Week": 4,
         "Reading": "Ch 2.2",
         "Resources": [
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/12epvoLK05HPuCKNc5u_sonHqLRSbvqlyiM_eGd3G2jg/pub?start=false&loop=false&delayms=3000"
+		},
+		{
+			"text": "Homework",
+			"link": "https://docs.google.com/document/d/1HI0Wowg5ONZ8EEXeENGS_2K0NYfTfE5feNWgSArRNdU/pub"
+		}
         ]
     },
     {
