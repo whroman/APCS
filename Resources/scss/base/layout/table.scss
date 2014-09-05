@@ -8,7 +8,7 @@ th {
 }
 
 td, th {
-    padding: 8px 14px;
+    padding: 8px 28px 8px 14px;
     position: relative;
 }
 
@@ -27,7 +27,7 @@ tbody tr:not(:first-of-type) {
 }
 
 .selected {
-    background-color: $gray-md;
+    background-color: $gray-dark;
 
     .table-arrow {
         display: inline-block;

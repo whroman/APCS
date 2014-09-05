@@ -12,3 +12,7 @@
 [class*="text-"] {
     @include default-text;
 }
+
+.text-block {
+    line-height: 1.5em;
+}

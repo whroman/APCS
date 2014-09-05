@@ -11,6 +11,12 @@
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
             }
+        ],
+        "Quiz": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
+            }
         ]
     },
     {
@@ -39,12 +45,32 @@
         "Week": 3,
         "Reading": "Ch 2.1",
         "Resources": [
+            {
+                "text": "Cool Bytes",
+                "link": "https://docs.google.com/document/d/1kHdcl3vbTnsdU2ipnKLnmNvEJQDZiwvtR5-ptUiVxT0/pub"
+            },
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/19Qk_64HHzV-5b7OSJprhojL9YajeUkNpbbr5lsL26Fk/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "Homework",
+                "link": "https://docs.google.com/document/d/1kF4GnwZ0H0ChzZ_BI8lnJACyyY-Fu2Q5Wrg1-VBBtL0/pub"
+            }
         ]
     },
     {
         "Week": 4,
         "Reading": "Ch 2.2",
         "Resources": [
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/12epvoLK05HPuCKNc5u_sonHqLRSbvqlyiM_eGd3G2jg/pub?start=false&loop=false&delayms=3000"
+		},
+		{
+			"text": "Homework",
+			"link": "https://docs.google.com/document/d/1HI0Wowg5ONZ8EEXeENGS_2K0NYfTfE5feNWgSArRNdU/pub"
+		}
         ]
     },
     {
