@@ -31,13 +31,19 @@
             <tbody>
                 <tr 
                     class="text-block text-xxs"
+                    ng-class="{
+                        'bg-gray-xlight': table.currentWeek === row.Week,
+                        'bg-white-almost': table.currentWeek !== row.Week                        
+                    }"
                     ng-repeat="
-                        row in table.all | orderBy   : table.order.value : table.order.reverse"
+                        row in table.all | orderBy   
+                            : table.order.value 
+                            : table.order.reverse
+                    "
                     >
 
                     <td 
                         ng-repeat="key in table.keys"
-                        class="bg-white-almost"
                         >
                         <span 
                             ng-if="typeOf(row[key]) != 'object'">
@@ -49,7 +55,7 @@
                             <div
                                 ng-repeat="k in row[key]"
                             >
-                                <a href="{{k.link}}">{{k.text}}</a>
+                                <a href="{{k.link}}" target="_blank">{{k.text}}</a>
                             </div>
                         </div>
                     </td>
