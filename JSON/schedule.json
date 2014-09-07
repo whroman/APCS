@@ -35,7 +35,7 @@
 	"Quiz":
         [
             {
-                "text": "1 Questions + Solutions",
+                "text": "1 Solutions",
                 "link": "https://docs.google.com/document/d/1DIfwoCQk0ONxhLgkbMxlxBgvvi0q72M8kgvA5XFj5aI/pub"
             }
         ]
@@ -61,7 +61,7 @@
         ],
         "Quiz": [
             {
-                "text":"2.1 Questions + Solutions",
+                "text":"2.1 Solutions",
                 "link":"https://docs.google.com/document/d/1gR5s01pjronH8_xd3oOWl04BLLRCAXr33kgYnp8GFeQ/pub"
             }
         ]
@@ -87,14 +87,14 @@
         ],
         "Quiz": [
             {
-                "text":"2.2 Questions + Solutions",
+                "text":"2.2 Solutions",
                 "link":"https://docs.google.com/document/d/1kCFo49JNRzptkpG2wdUjKwqam01DvHotfQ8IlK4j8wc/pub"
             }
         ]
     },
     {
         "Week": 5,
-        "Reading": "Ch 2.3, 2.4",
+        "Reading": "2.3-2.4",
         "Resources": [
         ],
         "Quiz": [
@@ -106,7 +106,7 @@
     },
     {
         "Week": 6,
-        "Reading": "Ch 3.1, 3.2, 4.1, 5.3",
+        "Reading": "3.1-3.2, 4.1, 5.3",
         "Resources": [
         ],
         "Quiz": [
@@ -114,7 +114,7 @@
     },
     {
         "Week": 7,
-        "Reading": "Ch 3.3, 4.2",
+        "Reading": "3.3, 4.2",
         "Resources": [
         ]
     },
