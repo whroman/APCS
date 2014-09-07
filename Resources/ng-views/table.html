@@ -49,29 +49,26 @@
                             ng-if="typeOf(row[key]) != 'object'">
                             {{ row[key] }}
                         </span>
-                        <div 
-                            ng-if="typeOf(row[key]) == 'object' "
-                            >
-                            <ul
-                                ng-repeat="k in row[key]"
-                            >
-                                <li>
-                                    <span 
-                                        ng-if="!k.link"
-                                        >
-                                        {{k.text}}
-                                    </span>
-                                    <a 
-                                        ng-if="!!k.link"
-                                        href="{{k.link}}" 
-                                        target="_blank"
-                                        >
-                                        {{k.text}}
-                                    </a>
-                                </li>
 
-                            </div>
-                        </div>
+                        <ul
+                            ng-if="typeOf(row[key]) == 'object' "
+                            ng-repeat="k in row[key]"
+                        >
+                            <li>
+                                <span 
+                                    ng-if="!k.link"
+                                    >
+                                    {{k.text}}
+                                </span>
+                                <a 
+                                    ng-if="!!k.link"
+                                    href="{{k.link}}" 
+                                    target="_blank"
+                                    >
+                                    {{k.text}}
+                                </a>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
             </tbody>
