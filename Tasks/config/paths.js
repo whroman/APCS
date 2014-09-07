@@ -1,5 +1,3 @@
-var batchPaths = require('./batchPaths.js');
-
 // ======
 // #Paths
 
