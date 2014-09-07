@@ -3,13 +3,18 @@ table {
     width: 100%;
 }
 
-th {
-    cursor: pointer;
-}
 
 td, th {
-    padding: 8px 28px 8px 14px;
     position: relative;
+}
+
+td {
+    padding: 8px 28px 8px 14px;
+}
+
+th {
+    cursor: pointer;
+    padding: 8px 42px 8px 14px;
 }
 
 tbody tr:not(:first-of-type) {
