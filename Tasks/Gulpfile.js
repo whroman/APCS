@@ -27,6 +27,15 @@ gulp.task(
 );
 
 gulp.task(
+    'lint-json',
+    function() {
+        gulp.src(path.json.watch, options.gulpSrc)
+        .pipe(gp.jsonlint())
+        .pipe(gp.jsonlint.reporter());
+    }
+);
+
+gulp.task(
     'lint-scripts',
     function() {
         gulp.src(path.js.watch, options.gulpSrc)
@@ -65,7 +74,8 @@ gulp.task(
             [
                 'build-styles'
             ]
-        )
+        );
+
         gulp.watch(
             path.js.watch, 
             options.gulpNoRead,
@@ -73,12 +83,21 @@ gulp.task(
                 'lint-scripts',
                 'build-scripts'
             ]
-        )
+        );
+
+        gulp.watch(
+            path.json.watch,
+            options.gulpNoRead,
+            [
+                'lint-json'
+            ]
+        );
     }
 );
 
 gulp.task(
     'build', [
+        'lint-json',
         'lint-scripts',
         'build-scripts',
         'build-styles'

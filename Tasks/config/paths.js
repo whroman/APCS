@@ -7,11 +7,9 @@ var path    = {
     cwd     : '../',
     resources : 'Resources/',
     root    : {},
-    html    : {},
     js      : {},
-    css     : {},
-    scss    : {},
-
+    json    : {},
+    scss    : {}
 }
 
 path.build  = path.resources + 'production/'
@@ -75,6 +73,8 @@ path.js.src      = batchPaths.suffix('.js')
         'table/index',
     ])
     .all()
+
+path.json.watch = 'JSON/**/*.json';
 
 path.js.all = path.js.libs.concat(path.js.src)
 
