@@ -69,6 +69,7 @@ angular
             return this;
         };
 
+
         var startEpochTimeMS = 1407740401000;
         var currentWeek = function(startTimeMS) {
             var currentTimeMS = (new Date()).getTime();
