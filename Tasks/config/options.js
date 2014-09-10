@@ -25,9 +25,7 @@ options.scss = {
 options.connect = {
     root    : [path.cwd],
     port    : '8889',
-    livereload : {
-        port : '35730'
-    }
-};
+    livereload : false
+}
 
 module.exports = options;

@@ -21,7 +21,7 @@ angular
             isLoading : true,
         };
 
-    // List of keys that are properties for each object in `schools`
+    // List of keys that are properties for each object in loaded json
         var keys = [];
 
         var setKeys = function(arr) {
@@ -57,7 +57,7 @@ angular
             var This = this;
             $http
                 .get(path)
-                .error(function() {
+                .error(function(error) {
                     throw ("Could not load JSON: " + error);
                 })
                 .success(function(data) {

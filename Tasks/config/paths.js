@@ -1,5 +1,3 @@
-var batchPaths = require('./batchPaths.js');
-
 // ======
 // #Paths
 
@@ -7,11 +5,11 @@ var path    = {
     cwd     : '../',
     resources : 'Resources/',
     root    : {},
-    html    : {},
     js      : {},
-    css     : {},
     scss    : {},
-
+    json: {
+        watch: 'JSON/**/*.json'
+    }
 }
 
 path.build  = path.resources + 'production/'
@@ -35,46 +33,25 @@ path.scss = {
 // ==========
 // #js
 // ==========
-
-// Root of Angular app
-path.root.ngApp = path.root.js + 'app/'
-
 path.js = {
-// Angular app files
-    models       : path.root.ngApp + 'models/',
-    controllers  : path.root.ngApp + 'controllers/',
-    collections  : path.root.ngApp + 'collections/',
-
 // Build files
-    build    : 'build.js',
+    build   : 'build.js',
 
 // Files to be watched and linted
-    watch    : path.root.js + '**/*.js',
-}
+    watch   : path.root.js + '**/*.js',
 
-path.js.libs = batchPaths.suffix('.js')
-    .prefix(path.bower)
-    .add([
-        'angular/angular',
-        'angular-route/angular-route.min',
-        'jquery/jquery',
-    ])
-    .all()
+    libs    : [
+        path.bower + 'angular/angular.js',
+        path.bower + 'angular-route/angular-route.min.js',
+        path.bower + 'jquery/jquery.js',
+    ],
 
-path.js.src      = batchPaths.suffix('.js')
-    .prefix(path.root.ngApp)
-    .add([
-        'app'
-    ])
-    .prefix(path.js.controllers)
-    .add([
-        'table'
-    ])
-    .prefix(path.js.collections)
-    .add([
-        'table/index',
-    ])
-    .all()
+    src     : [
+        path.root.js + 'app/app.js',
+        path.root.js + 'app/controllers/table.js',
+        path.root.js + 'app/collections/table/index.js'
+    ]
+};
 
 path.js.all = path.js.libs.concat(path.js.src)
 
