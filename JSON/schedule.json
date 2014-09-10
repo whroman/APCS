@@ -94,8 +94,22 @@
     },
     {
         "Week": 5,
-        "Reading": "2.3-2.4",
+        "Reading": "2.3-2.5",
+        "Homework": [
+            {
+                "text": "2.3-2.4 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1e5uj_xb9mA7bVuOMp3uEkQwVYcqWiCM_zQ98cEQPbQI/pub"
+            },
+            {
+                "text": "Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1sTcKEJRq3B2qXf6GBVmRi1qBcoo21urIyY7PPP3o3Uw/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1pi3BeCUnTeoGYy_hRfVaUhFTqPFYpO1x_sGXlIZLWfA/pub?start=false&loop=false&delayms=3000"
+            }
         ],
         "Quiz": [
             {
