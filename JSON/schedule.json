@@ -11,39 +11,44 @@
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
             }
-        ],
-        "Quiz": [
-            {
-                "text": "Slides",
-                "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
-            }
         ]
     },
     {
         "Week": 2,
-        "Reading": "Ch 1",
+        "Reading": "1",
+        "Homework": [
+            {
+                "text": "1 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1IOsj1zSChAMFp2FRtto3wyN7BxSACBzU-jEnsopf11o/pub"
+            }
+        ],
         "Resources": [
             {
                 "text": "Setting Up Your Development Environment",
-                "link": "https://docs.google.com/document/d/1D8PsGkTGBt5Pp4A7NXp9f2ik1XiaEVPgAuWP9qL8fcc/pub"
+                "link": "https://docs.google.com/document/d/1DreDncs2G93Mpa-DhdEV8us9fge4KW7rHafZhUQvsNE/pub"
             },
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
-            },
+            }
+	],
+	"Quiz":
+        [
             {
-                "text": "PracticeIt! Ch 1 Problems",
-                "link": ""
-            },
-            {
-                "text": "Ch 1 Quiz + Solutions",
-                "link": ""
+                "text": "1 Solutions",
+                "link": "https://docs.google.com/document/d/1DIfwoCQk0ONxhLgkbMxlxBgvvi0q72M8kgvA5XFj5aI/pub"
             }
         ]
     },
     {
         "Week": 3,
-        "Reading": "Ch 2.1",
+        "Reading": "2.1",
+        "Homework": [
+            {
+                "text": "2.1 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1kF4GnwZ0H0ChzZ_BI8lnJACyyY-Fu2Q5Wrg1-VBBtL0/pub"
+            }
+        ],
         "Resources": [
             {
                 "text": "Cool Bytes",
@@ -52,42 +57,78 @@
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/19Qk_64HHzV-5b7OSJprhojL9YajeUkNpbbr5lsL26Fk/pub?start=false&loop=false&delayms=3000"
-            },
+            }
+        ],
+        "Quiz": [
             {
-                "text": "Homework",
-                "link": "https://docs.google.com/document/d/1kF4GnwZ0H0ChzZ_BI8lnJACyyY-Fu2Q5Wrg1-VBBtL0/pub"
+                "text":"2.1 Solutions",
+                "link":"https://docs.google.com/document/d/1gR5s01pjronH8_xd3oOWl04BLLRCAXr33kgYnp8GFeQ/pub"
             }
         ]
     },
     {
         "Week": 4,
-        "Reading": "Ch 2.2",
+        "Reading": "2.2",
+        "Homework": [
+            {
+                "text": "2.2 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1HI0Wowg5ONZ8EEXeENGS_2K0NYfTfE5feNWgSArRNdU/pub"
+            }
+        ],
         "Resources": [
-		{
-			"text": "Slides",
-			"link": "https://docs.google.com/presentation/d/12epvoLK05HPuCKNc5u_sonHqLRSbvqlyiM_eGd3G2jg/pub?start=false&loop=false&delayms=3000"
-		},
-		{
-			"text": "Homework",
-			"link": "https://docs.google.com/document/d/1HI0Wowg5ONZ8EEXeENGS_2K0NYfTfE5feNWgSArRNdU/pub"
-		}
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/12epvoLK05HPuCKNc5u_sonHqLRSbvqlyiM_eGd3G2jg/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "Assignment Submission",
+                "link": "https://docs.google.com/document/d/1qjrmyaP0QdU9xAgLGFwBWXukzbiRn9uiRSUu7NCEaoA/pub"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"2.2 Solutions",
+                "link":"https://docs.google.com/document/d/1kCFo49JNRzptkpG2wdUjKwqam01DvHotfQ8IlK4j8wc/pub"
+            }
         ]
     },
     {
         "Week": 5,
-        "Reading": "Ch 2.3, 2.4",
+        "Reading": "2.3-2.5",
+        "Homework": [
+            {
+                "text": "2.3-2.4 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1e5uj_xb9mA7bVuOMp3uEkQwVYcqWiCM_zQ98cEQPbQI/pub"
+            },
+            {
+                "text": "Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1sTcKEJRq3B2qXf6GBVmRi1qBcoo21urIyY7PPP3o3Uw/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1pi3BeCUnTeoGYy_hRfVaUhFTqPFYpO1x_sGXlIZLWfA/pub?start=false&loop=false&delayms=3000"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"1-2 Review",
+                "link":""
+            }
         ]
     },
     {
         "Week": 6,
-        "Reading": "Ch 3.1, 3.2, 4.1, 5.3",
+        "Reading": "3.1-3.2, 4.1, 5.3",
         "Resources": [
+        ],
+        "Quiz": [
         ]
     },
     {
         "Week": 7,
-        "Reading": "Ch 3.3, 4.2",
+        "Reading": "3.3, 4.2",
         "Resources": [
         ]
     },
