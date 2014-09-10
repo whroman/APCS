@@ -49,15 +49,26 @@
                             ng-if="typeOf(row[key]) != 'object'">
                             {{ row[key] }}
                         </span>
-                        <div 
+
+                        <ul
                             ng-if="typeOf(row[key]) == 'object' "
-                            >
-                            <div
-                                ng-repeat="k in row[key]"
-                            >
-                                <a href="{{k.link}}" target="_blank">{{k.text}}</a>
-                            </div>
-                        </div>
+                            ng-repeat="k in row[key]"
+                        >
+                            <li>
+                                <span 
+                                    ng-if="!k.link"
+                                    >
+                                    {{k.text}}
+                                </span>
+                                <a 
+                                    ng-if="!!k.link"
+                                    href="{{k.link}}" 
+                                    target="_blank"
+                                    >
+                                    {{k.text}}
+                                </a>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
             </tbody>

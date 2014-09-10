@@ -83,9 +83,12 @@ div, img, form, input {
 }
 
 li {
-    list-style: none;
+    list-style: disc inside;
+    text-indent: -1em;
+    margin-left: 1em;
 }
 
 ul {
     margin: 0;
+    padding: 0;
 }
