@@ -1,5 +1,4 @@
-*.DS_Store
-/css/*
 Tasks/node_modules/
 Tasks/.sass-cache/
-.idea
+Resources/production/build.js.map
+Resources/production/build.css.map

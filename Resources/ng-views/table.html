@@ -52,7 +52,7 @@
 
                         <ul
                             ng-if="typeOf(row[key]) == 'object' "
-                            ng-repeat="k in row[key]"
+                            ng-repeat="k in row[key] track by $index"
                         >
                             <li>
                                 <span 
