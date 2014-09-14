@@ -114,16 +114,30 @@
         "Quiz": [
             {
                 "text":"1-2 Review",
-                "link":""
+                "link":"https://docs.google.com/document/d/1LdltNrIx_AcDFN-7qyAtZ7Vx-PUUDslaA80H8RzUcd0/pub"
             }
         ]
     },
     {
         "Week": 6,
         "Reading": "3.1-3.2, 4.1, 5.3",
+        "Homework": [
+            {
+                "text": "PracticeIt! and Fractional Calculator",
+                "link": "https://docs.google.com/document/d/12v6u9TeCFz3KtCaZrMwGgehhMgD2KyAduLwZIYY830I/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1pi3BeCUnTeoGYy_hRfVaUhFTqPFYpO1x_sGXlIZLWfA/pub?start=false&loop=false&delayms=3000"
+            }
         ],
         "Quiz": [
+            {
+                "text":"3.1-3.2, 4.1, 5.3 Quiz",
+                "link":""
+            }
         ]
     },
     {
