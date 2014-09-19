@@ -120,7 +120,7 @@
     },
     {
         "Week": 6,
-        "Reading": "3.1-3.2, 4.1, 5.3",
+        "Reading": "3.1-3.2",
         "Homework": [
             {
                 "text": "PracticeIt! and Fractional Calculator",
@@ -135,15 +135,27 @@
         ],
         "Quiz": [
             {
-                "text":"3.1-3.2, 4.1, 5.3 Quiz",
+                "text":"Deferred",
                 "link":""
             }
         ]
     },
     {
         "Week": 7,
-        "Reading": "3.3, 4.2",
+        "Reading": "4.1, 5.3",
+        "Homework": [
+            {
+                "text": "PracticeIt! and Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1lrCP7aQukZiyv6bCp11gU5tcw8Wk6zx96iLVauEMDgU/pub"
+            }
+        ],
         "Resources": [
+        ],
+        "Quiz": [
+            {
+                "text":"",
+                "link":""
+            }
         ]
     },
     {
