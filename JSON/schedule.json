@@ -131,6 +131,10 @@
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1N1q75uWZtV0a2G6PZ_EHi6I78-d6QXcKx92lO2n5SRs/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "JavaDoc for Math class",
+                "link": "http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html"
             }
         ],
         "Quiz": [
