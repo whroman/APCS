@@ -335,11 +335,54 @@
         {
             "text": "Common Classes Worksheet",
             "link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyZm5sQ3ZBTDlkNms/view?usp=sharing"
+        },
+        {
+            "text": "Common Classes Answers",
+            "link": "https://docs.google.com/spreadsheets/d/1DwuKSys_h-Cl5wNGHfOFcsDl7JSxL5AQMiuKcAICy2s/pubhtml"
         }
         ],
         "Homework": [
         {
             "text": "Finish FracCalc"
+        }
+    ]
+    },
+    {
+	"Week": 16,
+	"Reading": "",
+	"Resources": [
+		{
+			"text":"Thanksgiving Break!"
+		}
+	]
+    },
+    {
+        "Week": 17,
+        "Reading": "Ch 7",
+        "Resources": [
+        {
+            "text": "Slides",
+            "link": "https://docs.google.com/presentation/d/1hNzkKjEH0bP4nvjMB9C19YvO2jfM12u6Ig0KfMY23E0/pub?start=false&loop=false&delayms=3000"
+        }
+    ]
+    },
+    {
+        "Week": 18,
+        "Reading": "Ch 7",
+        "Resources": [
+        {
+            "text": "Slides",
+            "link": "https://docs.google.com/presentation/d/1UCn2vTokit8EktfHulW8kmPQSfvXgiOWJAv0ICBL8p8/pub?start=false&loop=false&delayms=3000"
+        }
+    ]
+    },
+    {
+        "Week": 19,
+        "Reading": "Ch 1-5, 7",
+        "Resources": [
+        {
+            "text": "Slides",
+            "link": "https://docs.google.com/presentation/d/13C8TeUnbW2_FW9ZIq_omE31TQTIZbBNzdcCxtIlFJ-k/pub?start=false&loop=false&delayms=3000"
         }
     ]
     }
