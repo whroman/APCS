@@ -168,8 +168,24 @@
     },
     {
         "Week": 8,
-        "Reading": "",
+        "Reading": "5.1, 5.2, 4.2, 4.3",
+        "Homework": [
+            {
+                "text": "PracticeIt and Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1U_v_fu43Lzmjob9wKz1bZnLAG-kJ59rocBlWqYWgJYU/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1QrjtqRB0KXXgzKIvGVXBJXbdd2iTqjHqGWNnAvvsvWg/pub?start=false&loop=false&delayms=3000"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"3.3, 4.1, 5.3 Quiz",
+                "link":""
+            }
         ]
     },
     {
