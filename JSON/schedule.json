@@ -185,6 +185,10 @@
                 "link": "https://docs.google.com/presentation/d/1QrjtqRB0KXXgzKIvGVXBJXbdd2iTqjHqGWNnAvvsvWg/pub?start=false&loop=false&delayms=3000"
             },
             {
+                "text": "JavaDoc for Scanner class",
+                "link": "http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html"
+            },
+            {
                 "text":"Code Samples",
                 "link":""
             }
@@ -203,6 +207,10 @@
             {
                 "text":"Slides",
                 "link":"https://docs.google.com/presentation/d/1tjZQoyz_GHqIxwFA_z__2Vy2IKDGVX50sziPWNhAwfU/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "JavaDoc for Random class",
+                "link": "http://docs.oracle.com/javase/7/docs/api/java/util/Random.html"
             },
             {
                 "text":"Code Samples",
