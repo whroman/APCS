@@ -157,6 +157,10 @@
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1-FIo0JOt6QnQqLamF4U-zZ4-Rl3G22anvKADqX_SHy4/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "Code Samples",
+                "link": "https://docs.google.com/document/d/1rlgr67Yo6bda3zdC-Nc3e173BbO5vo3mey3SqUurhLI/pub"
             }
         ],
         "Quiz": [
@@ -168,7 +172,7 @@
     },
     {
         "Week": 8,
-        "Reading": "5.1, 5.2, 4.2, 4.3",
+        "Reading": "5.1, 5.2",
         "Homework": [
             {
                 "text": "PracticeIt and Fractional Calculator",
@@ -179,19 +183,37 @@
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1QrjtqRB0KXXgzKIvGVXBJXbdd2iTqjHqGWNnAvvsvWg/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text":"Code Samples",
+                "link":""
             }
         ],
         "Quiz": [
             {
                 "text":"3.3, 4.1, 5.3 Quiz",
-                "link":""
+                "link":"https://docs.google.com/document/d/1CJuA5ygYd0byL1klwlkJsZikq1U76MWre69FvBgmdbI/pub"
             }
         ]
     },
     {
         "Week": 9,
-        "Reading": "",
+        "Reading": "4.2, 4.3",
         "Resources": [
+            {
+                "text":"Slides",
+                "link":"https://docs.google.com/presentation/d/1tjZQoyz_GHqIxwFA_z__2Vy2IKDGVX50sziPWNhAwfU/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text":"Code Samples",
+                "link":""
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"5.1, 5.2 Quiz",
+                "link":""
+            }
         ]
     },
     {
