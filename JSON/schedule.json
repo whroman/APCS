@@ -216,6 +216,14 @@
         "Week": 10,
         "Reading": "5.4, 5.5, 5.6",
         "Resources": [
+            {
+                "text":"Slides",
+                "link":"https://docs.google.com/presentation/d/1BkOsjzKgzNZYZ75f1tvyvzm2ztlFZBkYxPb-Wlg3pe8/pub?start=false&loop=false&delayms=3000"
+	    },
+            {
+                "text":"JavaDoc for Scanner class",
+                "link":"http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html"
+            }
         ]
     },
     {
