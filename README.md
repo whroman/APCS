@@ -10,7 +10,7 @@ Technologies used:
 ##Application
 
 ### Requirements
-To work on the front-end code of the application, you'll need to have the following packages installed before continuing.
+To work on the front-end code of the application, you'll need to have the following CLIs installed before continuing.
 
 * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
 * [Gulp](http://gulpjs.com/): Run `[sudo] npm install -g gulp`
@@ -18,6 +18,7 @@ To work on the front-end code of the application, you'll need to have the follow
 * [Ruby](https://www.ruby-lang.org/en/installation/): Comes installed on Macs.
 * [Sass](http://sass-lang.com/install) : Run `[sudo] gem install sass`. Version 3.3 or higher is required due to sourcemap support
 
+Then, run `sudo npm install` within `/Tasks` to install the libraries listed in `package.json`.
 
 \* Only necessary if user wants to add third-party libraries/frameworks to project
 
