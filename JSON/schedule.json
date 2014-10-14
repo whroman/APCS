@@ -138,10 +138,6 @@
             }
         ],
         "Quiz": [
-            {
-                "text":"Deferred",
-                "link":""
-            }
         ]
     },
     {
@@ -187,10 +183,6 @@
             {
                 "text": "JavaDoc for Scanner class",
                 "link": "http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html"
-            },
-            {
-                "text":"Code Samples",
-                "link":""
             }
         ],
         "Quiz": [
@@ -211,22 +203,18 @@
             {
                 "text": "JavaDoc for Random class",
                 "link": "http://docs.oracle.com/javase/7/docs/api/java/util/Random.html"
-            },
-            {
-                "text":"Code Samples",
-                "link":""
             }
         ],
         "Quiz": [
             {
                 "text":"5.1, 5.2 Quiz",
-                "link":""
+                "link":"https://docs.google.com/document/d/19HYwe5_VkLGQbs-15NuDs2ZijUwHNLrnzxb0bmp5mHQ/pub"
             }
         ]
     },
     {
         "Week": 10,
-        "Reading": "",
+        "Reading": "5.4, 5.5, 5.6",
         "Resources": [
         ]
     },
