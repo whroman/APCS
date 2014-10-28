@@ -234,7 +234,7 @@
     },
     {
         "Week": 11,
-        "Reading": "",
+        "Reading": "Ch 1-5",
         "Resources": [
 		{
 			"text": "Hint",
@@ -244,8 +244,46 @@
     },
     {
         "Week": 12,
+        "Reading": "Ch 1-5",
+        "Resources": [
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1lsQ0vDGrT2Qb9HtAQBhULLRb8De3iH3J6RKfnmYdgC8/pub?start=false&loop=false&delayms=3000"
+		},
+		{
+			"text": "Boolean Logic Worksheet",
+			"link": "https://docs.google.com/document/d/1ajjbdwXzfGuS4CW7nYQ6i9DHdIODiWCauTLjBtJBZHw/pub"
+		}
+        ],
+        "Homework": [
+		{
+			"text": "Ch 1 Review",
+			"link": "https://docs.google.com/document/d/1xK6qewLPnMFL5dr_vhCjd07gjKqdXTS7xQcq9Ffn0DE/pub"
+		}
+	]
+    },
+    {
+        "Week": 13,
         "Reading": "",
         "Resources": [
-        ]
+        ],
+        "Homework": [
+	]
+    },
+    {
+        "Week": 14,
+        "Reading": "",
+        "Resources": [
+        ],
+        "Homework": [
+	]
+    },
+    {
+        "Week": 15,
+        "Reading": "",
+        "Resources": [
+        ],
+        "Homework": [
+	]
     }
 ]
