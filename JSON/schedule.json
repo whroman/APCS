@@ -276,10 +276,17 @@
     },
     {
         "Week": 13,
-        "Reading": "",
+        "Reading": "Ch 1 - 5",
         "Resources": [
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/15KGc1s-awhlLoQsGkUw1SDnd9jJycIxVWP1Cqlic12o/pub?start=false&loop=false&delayms=3000"
+	}
         ],
         "Homework": [
+		{
+			"text": "Study for test! Ch 1 - 5"
+		}
 	]
     },
     {
