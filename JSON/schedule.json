@@ -266,8 +266,7 @@
 		},
 		{
 			"text": "Ch 1 Review Solutions",
-			"link": "",
-			"_comment": "https://docs.google.com/document/d/1F5IHwd3KsA-ptDJIJNzh9ab1n6Rf9baZLvRWMScSRKg/pub"
+			"link": "https://docs.google.com/document/d/1F5IHwd3KsA-ptDJIJNzh9ab1n6Rf9baZLvRWMScSRKg/pub"
 		},
 		{
 			"text": "Conditional and Repetative Statements Review",
@@ -282,12 +281,23 @@
 		{
 			"text": "Slides",
 			"link": "https://docs.google.com/presentation/d/15KGc1s-awhlLoQsGkUw1SDnd9jJycIxVWP1Cqlic12o/pub?start=false&loop=false&delayms=3000"
-	}
+		}
         ],
         "Homework": [
 		{
 			"text": "Study for test! Ch 1 - 5"
 		}
+	],
+	"Quiz":
+        [
+            {
+		"text": "Quiz questions",
+		"link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyX04zdXY0dVRPN0FxQW9FUS1zNjZrSkhxNkhn/view?usp=sharing"
+	    },
+	    {
+		"text": "Solutions",
+		"link": "https://docs.google.com/spreadsheets/d/1gu_R54AWlBG1_9hPlPz0424wt1flEWviez74nJiwFgM/pubhtml"
+	    }
 	]
     },
     {
