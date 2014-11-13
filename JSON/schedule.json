@@ -304,6 +304,14 @@
         "Week": 14,
         "Reading": "",
         "Resources": [
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1FawycVvevGnJq4nUThdiMhm28cxIH8wfPAI8hfULLZ0/pub?start=false&loop=false&delayms=3000"
+		},
+		{
+			"text": "Methods Worksheet",
+			"link": "https://docs.google.com/document/d/1W4xoMXcx_iQLh9XYvfG3Jo1Bf5PJf5OccLh84JRyNSo/pub"
+		}
         ],
         "Homework": [
 	]
