@@ -291,7 +291,7 @@
 	"Quiz":
         [
             {
-		"text": "Quiz questions",
+		"text": "Test questions",
 		"link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyX04zdXY0dVRPN0FxQW9FUS1zNjZrSkhxNkhn/view?usp=sharing"
 	    },
 	    {
@@ -302,7 +302,7 @@
     },
     {
         "Week": 14,
-        "Reading": "",
+        "Reading": "Ch 1 - 5",
         "Resources": [
 		{
 			"text": "Slides",
@@ -311,17 +311,31 @@
 		{
 			"text": "Methods Worksheet",
 			"link": "https://docs.google.com/document/d/1W4xoMXcx_iQLh9XYvfG3Jo1Bf5PJf5OccLh84JRyNSo/pub"
+		},
+		{
+			"text": "Methods Worksheet Solutions",
+			"link": "https://docs.google.com/document/d/1hc4QudHlBE23Pr9SikxLL5i0IbjuJFMGtoO-uc38KgY/pub"
 		}
         ],
         "Homework": [
+		{
+			"text": "FracCalc"
+		}
 	]
     },
     {
         "Week": 15,
-        "Reading": "",
+        "Reading": "Ch 1 - 5",
         "Resources": [
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1H7yTMmPGEOaUDcJu_I3-JbgTFS0UjKElUQeemIYW4TA/pub?start=false&loop=false&delayms=3000"
+		}
         ],
         "Homework": [
+		{
+			"text": "Finish FracCalc"
+		}
 	]
     }
 ]
