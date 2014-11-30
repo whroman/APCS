@@ -50,15 +50,16 @@
                             ng-if="!isArray(row[key])">
                             {{ row[key] }}
                         </span>
-                        <ul
+
+                        <div
                             ng-if="isArray(row[key]) "
                             >
-                            <li
+                            <div
                                 ng-repeat="k in row[key]"
                             >
                                 <a href="{{k.link}}" target="_blank">{{k.text}}</a>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </td>
                 </tr>
             </tbody>
