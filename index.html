@@ -1,83 +1,99 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>AP Computer Science</title>
 
-    <link rel="stylesheet" href="Resources/production/build.css" />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.4.6/css/foundation.min.css"
+    />
+
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="Resources/production/build.css"
+    />
 
 </head>
+
 <body>
-    <div class="body-column-wrapper bg-gray-dark text-white">
+    <div class="bg-gray-dark text-white">
+        <div class="row">
+            <div class="small-12 column">
+                <div class="spacer-xl"></div>
+                <div class="spacer-xl"></div>
+                <div>
+                    <h1 class="text-lg text-thin">AP Computer Science</h1>
 
-        <div class="spacer-xl"></div>
+                    <div class="spacer-sm"></div>
+                    <hr class="bg-white">
+                    <div class="spacer-sm"></div>
 
-        <div class="body-column">
-            <h1 class="text-lg text-thin">AP Computer Science</h1>
-
-            <div class="spacer-sm"></div>
-            <hr>
-            <div class="spacer-sm"></div>
-
-            <h2 class="text-block text-xs">Teaching materials and handouts for AP Computer Science at Buckingham Charter</h2>
+                    <h2 class="text-block text-xs">Teaching materials and handouts for AP Computer Science at Buckingham Charter</h2>
+                </div>
+                <div class="spacer-lg"></div>
+                <div class="spacer-md"></div>
+            </div>
         </div>
-        <div class="spacer-lg"></div>
     </div>
 
-    <div class="body-column-wrapper">
-        <div class="spacer-lg"></div>
-        <div class="body-column">
-            <h2 class="text-lg text-thin">Forum and Office Hours</h2>
+    <div class="row">
+        <div class="small-12 column">
+            <div class="spacer-lg"></div>
+            <div class="spacer-md"></div>
+            <div>
+                <h2 class="text-lg text-thin">Forum and Office Hours</h2>
 
-            <div class="spacer-sm"></div>
-            <hr>
-            <div class="spacer-sm"></div>
+                <div class="spacer-sm"></div>
+                <hr class="bg-gray-dark">
+                <div class="spacer-sm"></div>
 
-            <div class="text-block text-xs">Content-specific questions and be asked on the  <a target="_blank" href="/APCS-forum">class forum</a>. A teacher or TA will likely be able to respond to questions within 48 hours. Office hours are conducted on an as-needed basis. To request office hours, please send an email to <a target="_blank" href="http://xmunoz.github.io/APCS/mailto:buckingham-apcs2014@googlegroups.com">buckingham-apcs2014@googlegroups.com</a>, and we will work with you to set up a convenient time.</div>
-        </div>
-        <div class="spacer-md"></div>
-        <div class="spacer-sm"></div>
-    </div>
-
-    <div class="body-column-wrapper bg-gray-xlight">
-        <div class="spacer-lg"></div>
-        <div class="body-column">
-            <h2 class="text-lg text-thin">Homework</h2>
-
-            <div class="spacer-sm"></div>
-            <hr>
-            <div class="spacer-sm"></div>
-    	       <div class="text-block text-xs">Assignments are due on Monday by midnight (unless otherwise specified) and can be submitted <a target="_blank" href="https://dbinbox.com/apcs">here</a>. To submit an assignment, please name a file in the submission as follows: Lastname-Week#. The week number should be the week that the assingment was assigned, not the week that it is due. Refer to the week numbers below. If there are multiple files in a submission, only one of them needs to be named this way.</div>
+                <div class="text-block text-xs">Content-specific questions and be asked on the  <a target="_blank" href="/APCS-forum">class forum</a>. A teacher or TA will likely be able to respond to questions within 48 hours. Office hours are conducted on an as-needed basis. To request office hours, please send an email to <a target="_blank" href="http://xmunoz.github.io/APCS/mailto:buckingham-apcs2014@googlegroups.com">buckingham-apcs2014@googlegroups.com</a>, and we will work with you to set up a convenient time.</div>
             </div>
             <div class="spacer-md"></div>
             <div class="spacer-sm"></div>
+        </div>
+    </div>
+
+    <div class="bg-gray-xlight">
+        <div class="row">
+            <div class="small-12 column">
+                <div class="spacer-lg"></div>
+                <div class="spacer-md"></div>
+                <div>
+                    <h2 class="text-lg text-thin">Homework</h2>
+
+                    <div class="spacer-sm"></div>
+                    <hr class="bg-gray-dark">
+                    <div class="spacer-sm"></div>
+                    <div class="text-block text-xs">Assignments are due on Monday by midnight (unless otherwise specified) and can be submitted <a target="_blank" href="https://dbinbox.com/apcs">here</a>. To submit an assignment, please name a file in the submission as follows: Lastname-Week#. The week number should be the week that the assingment was assigned, not the week that it is due. Refer to the week numbers below. The Fractional Calculator assignment is due on Nov. 21 at midnight. Late submissions for this assignment will not be accepted.</div>
+                    </div>
+                    <div class="spacer-md"></div>
+                    <div class="spacer-sm"></div>
+                </div>
+            </div>
         </div>
 	</div>
 
     <div class="spacer-lg"></div>
-    
-    <div class="body-column-wrapper">
+    <div class="spacer-md"></div>
 
-        <div class="body-column">
-
-            <h2 class="text-lg text-thin">Schedule</h2>
-
-            <div class="spacer-md"></div>
-
-            <div 
+    <div class="row">
+        <div class="small-12 column">
+            <div
                 id="ng-app"
                 ng-app="PRIschools"
-                class="" 
+                class=""
                 ng-view
                 >
             </div>
+            <div class="spacer-xl"></div>
         </div>
-
-        <div class="spacer-xl"></div>
-
-    
     </div>
 
     <script type="text/javascript" src="Resources/production/build.js "></script>

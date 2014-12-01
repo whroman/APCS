@@ -16,9 +16,10 @@
                     <th
                         ng-repeat="key in table.keys"
                         ng-click="table.order.set(key)"
-                        class="bg-gray-md-light text-white text-thin"
+                        class="text-white text-thin"
                         ng-class="{
-                            selected    : table.order.latestInput === key,
+                            'bg-gray-md-light' : table.order.latestInput !== key,
+                            'selected bg-gray-dark'   : table.order.latestInput === key,
                             reversed    : table.order.latestInput === key && table.order.reverse
                         }"
                     >   
@@ -49,15 +50,15 @@
                             ng-if="!isArray(row[key])">
                             {{ row[key] }}
                         </span>
-                        <div
+                        <ul
                             ng-if="isArray(row[key]) "
                             >
-                            <div
+                            <li
                                 ng-repeat="k in row[key]"
                             >
                                 <a href="{{k.link}}" target="_blank">{{k.text}}</a>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
             </tbody>

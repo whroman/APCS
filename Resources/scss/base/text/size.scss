@@ -1,19 +1,12 @@
-.text-xxs {
-    font-size: 16px;
-}
+$sizes: (
+    icon: 10px,
+    xxxs: 13px,
+    xxs: 16px,
+    xs: 18px,
+    sm: 24px,
+    md: 30px,
+    lg: 38px,
+    xl: 48px
+);
 
-.text-xs {
-    font-size: 18px;
-}
-
-.text-sm {
-    font-size: 24px;
-}
-
-.text-md {
-    font-size: 30px;
-}
-
-.text-lg {
-    font-size: 38px;
-}
+@include breakpoint($sizes, font-size, "text");

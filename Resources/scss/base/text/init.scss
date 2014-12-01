@@ -1,18 +1,44 @@
-@import "color";
-@import "font";
-@import "size";
-@import "align";
-
-@mixin default-text() {
+[class*="text-"] {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
     letter-spacing: 0.05em;
+    line-height: 1;
 }
 
-[class*="text-"] {
-    @include default-text;
+%highlight {
+    display: inline-block;
+}
+
+.highlight-left {
+    padding-left: 0.5em;
+    @extend %highlight;
+}
+
+.highlight-right {
+    padding-right: 0.5em;
+    @extend %highlight;
+}
+
+.highlight {
+    @extend .highlight-left;
+    @extend .highlight-right;
+    @extend %highlight;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+[class*="text-"] .text-thin,
+[class*="text-"].text-thin {
+    font-weight: 100;
+    letter-spacing: 0.1em;
 }
 
 .text-block {
     line-height: 1.5em;
 }
+
+@import "size";
+@import "align";
+@import "color";

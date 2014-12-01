@@ -1,7 +1,42 @@
+<div>
+    <h2 class="text-lg text-thin">Schedule</h2>
+    <div class="spacer-lg"></div>
+    <div class="button-group radius text-thin">
+        <div
+            class="button tiny"
+            ng-click="showTable = 1"
+            ng-class="{
+                'bg-gray-light text-gray-dark': showTable !== 1,
+                'bg-blue text-white': showTable === 1
+            }"
+        >
+            <div class="spacer-xs"></div>
+            <span class="text-xxs">Semester 1</span>
+            <div class="spacer-xs"></div>
+        </div>
+        <div
+            class="button tiny"
+            ng-click="showTable = 2"
+            ng-class="{
+                'bg-gray-light text-gray-dark': showTable !== 2,
+                'bg-blue text-white': showTable === 2
+            }"
+        >
+            <div class="spacer-xs"></div>
+            <span class="text-xxs">Semester 2</span>
+            <div class="spacer-xs"></div>
+        </div>
+    </div>
+</div>
+
+<div class="spacer-lg"></div>
+
 <div
+    ng-if="showTable === 1"
     table="table1"
 ></div>
 
 <div
+    ng-if="showTable === 2"
     table="table2"
 ></div>

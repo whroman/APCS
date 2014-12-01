@@ -1,15 +1,7 @@
-.text-center {
-    text-align: center;
-}
+$alignments: (
+    right: "right",
+    left: "left",
+    center: "center",
+);
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-justify {
-    text-align: justify;
-}
+@include breakpoint($alignments, text-align, "text");

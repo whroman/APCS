@@ -1,18 +1,13 @@
+
 [
     {
         "Week": 1,
         "Reading": "",
         "Resources": [
             {
-                "text": "FooBar",
+                "text": "Semester Two Syllabus",
                 "link": "https://docs.google.com/document/d/1D8PsGkTGBt5Pp4A7NXp9f2ik1XiaEVPgAuWP9qL8fcc/pub"
             },
-            {
-                "text": "Slides",
-                "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
-            }
-        ],
-        "Quiz": [
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
@@ -21,29 +16,40 @@
     },
     {
         "Week": 2,
-        "Reading": "Ch 1",
+        "Reading": "1",
+        "Homework": [
+            {
+                "text": "1 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1IOsj1zSChAMFp2FRtto3wyN7BxSACBzU-jEnsopf11o/pub"
+            }
+        ],
         "Resources": [
             {
                 "text": "Setting Up Your Development Environment",
-                "link": "https://docs.google.com/document/d/1D8PsGkTGBt5Pp4A7NXp9f2ik1XiaEVPgAuWP9qL8fcc/pub"
+                "link": "https://docs.google.com/document/d/1DreDncs2G93Mpa-DhdEV8us9fge4KW7rHafZhUQvsNE/pub"
             },
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
-            },
+            }
+    ],
+    "Quiz":
+        [
             {
-                "text": "PracticeIt! Ch 1 Problems",
-                "link": ""
-            },
-            {
-                "text": "Ch 1 Quiz + Solutions",
-                "link": ""
+                "text": "1 Solutions",
+                "link": "https://docs.google.com/document/d/1DIfwoCQk0ONxhLgkbMxlxBgvvi0q72M8kgvA5XFj5aI/pub"
             }
         ]
     },
     {
         "Week": 3,
-        "Reading": "Ch 2.1",
+        "Reading": "2.1",
+        "Homework": [
+            {
+                "text": "2.1 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1kF4GnwZ0H0ChzZ_BI8lnJACyyY-Fu2Q5Wrg1-VBBtL0/pub"
+            }
+        ],
         "Resources": [
             {
                 "text": "Cool Bytes",
@@ -52,73 +58,289 @@
             {
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/19Qk_64HHzV-5b7OSJprhojL9YajeUkNpbbr5lsL26Fk/pub?start=false&loop=false&delayms=3000"
-            },
+            }
+        ],
+        "Quiz": [
             {
-                "text": "Homework",
-                "link": "https://docs.google.com/document/d/1kF4GnwZ0H0ChzZ_BI8lnJACyyY-Fu2Q5Wrg1-VBBtL0/pub"
+                "text":"2.1 Solutions",
+                "link":"https://docs.google.com/document/d/1gR5s01pjronH8_xd3oOWl04BLLRCAXr33kgYnp8GFeQ/pub"
             }
         ]
     },
     {
         "Week": 4,
-        "Reading": "Ch 2.2",
+        "Reading": "2.2",
+        "Homework": [
+            {
+                "text": "2.2 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1HI0Wowg5ONZ8EEXeENGS_2K0NYfTfE5feNWgSArRNdU/pub"
+            }
+        ],
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/12epvoLK05HPuCKNc5u_sonHqLRSbvqlyiM_eGd3G2jg/pub?start=false&loop=false&delayms=3000"
-        },
-        {
-            "text": "Homework",
-            "link": "https://docs.google.com/document/d/1HI0Wowg5ONZ8EEXeENGS_2K0NYfTfE5feNWgSArRNdU/pub"
-        }
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/12epvoLK05HPuCKNc5u_sonHqLRSbvqlyiM_eGd3G2jg/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "Assignment Submission",
+                "link": "https://docs.google.com/document/d/1qjrmyaP0QdU9xAgLGFwBWXukzbiRn9uiRSUu7NCEaoA/pub"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"2.2 Solutions",
+                "link":"https://docs.google.com/document/d/1kCFo49JNRzptkpG2wdUjKwqam01DvHotfQ8IlK4j8wc/pub"
+            }
         ]
     },
     {
         "Week": 5,
-        "Reading": "Ch 2.3, 2.4",
+        "Reading": "2.3-2.5",
+        "Homework": [
+            {
+                "text": "2.3-2.4 PracticeIt!",
+                "link": "https://docs.google.com/document/d/1e5uj_xb9mA7bVuOMp3uEkQwVYcqWiCM_zQ98cEQPbQI/pub"
+            },
+            {
+                "text": "Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1sTcKEJRq3B2qXf6GBVmRi1qBcoo21urIyY7PPP3o3Uw/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1pi3BeCUnTeoGYy_hRfVaUhFTqPFYpO1x_sGXlIZLWfA/pub?start=false&loop=false&delayms=3000"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"1-2 Review",
+                "link":"https://docs.google.com/document/d/1LdltNrIx_AcDFN-7qyAtZ7Vx-PUUDslaA80H8RzUcd0/pub"
+            }
         ]
     },
     {
         "Week": 6,
-        "Reading": "Ch 3.1, 3.2, 4.1, 5.3",
+        "Reading": "3.1-3.2",
+        "Homework": [
+            {
+                "text": "PracticeIt! and Fractional Calculator",
+                "link": "https://docs.google.com/document/d/12v6u9TeCFz3KtCaZrMwGgehhMgD2KyAduLwZIYY830I/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1N1q75uWZtV0a2G6PZ_EHi6I78-d6QXcKx92lO2n5SRs/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "JavaDoc for Math class",
+                "link": "http://docs.oracle.com/javase/7/docs/api/java/lang/Math.html"
+            }
+        ],
+        "Quiz": [
         ]
     },
     {
         "Week": 7,
-        "Reading": "Ch 3.3, 4.2",
+        "Reading": "3.3, 4.1, 5.3",
+        "Homework": [
+            {
+                "text": "PracticeIt! and Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1lrCP7aQukZiyv6bCp11gU5tcw8Wk6zx96iLVauEMDgU/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1-FIo0JOt6QnQqLamF4U-zZ4-Rl3G22anvKADqX_SHy4/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "Code Samples",
+                "link": "https://docs.google.com/document/d/1rlgr67Yo6bda3zdC-Nc3e173BbO5vo3mey3SqUurhLI/pub"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"3.1-3.2 Solutions",
+                "link":"https://docs.google.com/document/d/1E0VJjoaqY3MWrHKgIPZ7V3OJino1EIJLdRJdDn4ZnlQ/pub"
+            }
         ]
     },
     {
         "Week": 8,
-        "Reading": "",
+        "Reading": "5.1, 5.2",
+        "Homework": [
+            {
+                "text": "PracticeIt and Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1U_v_fu43Lzmjob9wKz1bZnLAG-kJ59rocBlWqYWgJYU/pub"
+            }
+        ],
         "Resources": [
+            {
+                "text": "Slides",
+                "link": "https://docs.google.com/presentation/d/1QrjtqRB0KXXgzKIvGVXBJXbdd2iTqjHqGWNnAvvsvWg/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "JavaDoc for Scanner class",
+                "link": "http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"3.3, 4.1, 5.3 Quiz",
+                "link":"https://docs.google.com/document/d/1CJuA5ygYd0byL1klwlkJsZikq1U76MWre69FvBgmdbI/pub"
+            }
         ]
     },
     {
         "Week": 9,
-        "Reading": "",
+        "Reading": "4.2, 4.3",
         "Resources": [
+            {
+                "text":"Slides",
+                "link":"https://docs.google.com/presentation/d/1tjZQoyz_GHqIxwFA_z__2Vy2IKDGVX50sziPWNhAwfU/pub?start=false&loop=false&delayms=3000"
+            },
+            {
+                "text": "JavaDoc for Random class",
+                "link": "http://docs.oracle.com/javase/7/docs/api/java/util/Random.html"
+            }
+        ],
+        "Quiz": [
+            {
+                "text":"5.1, 5.2 Quiz",
+                "link":"https://docs.google.com/document/d/19HYwe5_VkLGQbs-15NuDs2ZijUwHNLrnzxb0bmp5mHQ/pub"
+            }
         ]
     },
     {
         "Week": 10,
-        "Reading": "",
+        "Reading": "5.4, 5.5, 5.6",
         "Resources": [
+            {
+                "text":"Slides",
+                "link":"https://docs.google.com/presentation/d/1BkOsjzKgzNZYZ75f1tvyvzm2ztlFZBkYxPb-Wlg3pe8/pub?start=false&loop=false&delayms=3000"
+        },
+            {
+                "text":"Fractional Calculator Starter Code",
+                "link":"https://docs.google.com/document/d/13juX6IQOFOK5Zaf-8s2b1xGSCoY-TMipw1QqQpOKmQ8/pub"
+        }
+        ],
+        "Homework": [
+            {
+                "text": "Finish class work and Fractional Calculator",
+                "link": "https://docs.google.com/document/d/1rgIyF5-LhcHJT-lN3Gj4OOzIg-tbROxLUtchDC2ORnI/pub"
+            }
         ]
     },
     {
         "Week": 11,
-        "Reading": "",
+        "Reading": "Ch 1-5",
         "Resources": [
+        {
+            "text": "Hint",
+            "link": "https://docs.google.com/document/d/1TacUGlxDEf6l7G2uqXHT5nLQPnsdLip4NtOe6YWWzG8/pub"
+        }
         ]
     },
     {
         "Week": 12,
-        "Reading": "",
+        "Reading": "Ch 1-5",
         "Resources": [
-        ]
+        {
+            "text": "Slides",
+            "link": "https://docs.google.com/presentation/d/1lsQ0vDGrT2Qb9HtAQBhULLRb8De3iH3J6RKfnmYdgC8/pub?start=false&loop=false&delayms=3000"
+        },
+        {
+            "text": "Boolean Logic Worksheet",
+            "link": "https://docs.google.com/document/d/1ajjbdwXzfGuS4CW7nYQ6i9DHdIODiWCauTLjBtJBZHw/pub"
+        },
+        {
+            "text": "Boolean Logic Solutions",
+            "link": "https://docs.google.com/document/d/1FwBcvdxqp6Jj8MEBPQP4GaWPC2lmzFkbBG7cHD5v_6k/pub"
+        }
+        ],
+        "Homework": [
+        {
+            "text": "Ch 1 Review",
+            "link": "https://docs.google.com/document/d/1xK6qewLPnMFL5dr_vhCjd07gjKqdXTS7xQcq9Ffn0DE/pub"
+        },
+        {
+            "text": "Ch 1 Review Solutions",
+            "link": "https://docs.google.com/document/d/1F5IHwd3KsA-ptDJIJNzh9ab1n6Rf9baZLvRWMScSRKg/pub"
+        },
+        {
+            "text": "Conditional and Repetative Statements Review",
+            "link": "https://docs.google.com/document/d/1V-D_nhiwNFH8Xvp-ae04B1FeNybqYFmrWk449ib2AHc/pub"
+        }
+    ]
+    },
+    {
+        "Week": 13,
+        "Reading": "Ch 1 - 5",
+        "Resources": [
+        {
+            "text": "Slides",
+            "link": "https://docs.google.com/presentation/d/15KGc1s-awhlLoQsGkUw1SDnd9jJycIxVWP1Cqlic12o/pub?start=false&loop=false&delayms=3000"
+        }
+        ],
+        "Homework": [
+        {
+            "text": "Study for test! Ch 1 - 5"
+        }
+    ],
+    "Quiz":
+        [
+            {
+        "text": "Test questions",
+        "link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyX04zdXY0dVRPN0FxQW9FUS1zNjZrSkhxNkhn/view?usp=sharing"
+        },
+        {
+        "text": "Solutions",
+        "link": "https://docs.google.com/spreadsheets/d/1gu_R54AWlBG1_9hPlPz0424wt1flEWviez74nJiwFgM/pubhtml"
+        }
+    ]
+    },
+    {
+        "Week": 14,
+        "Reading": "Ch 1 - 5",
+        "Resources": [
+        {
+            "text": "Slides",
+            "link": "https://docs.google.com/presentation/d/1FawycVvevGnJq4nUThdiMhm28cxIH8wfPAI8hfULLZ0/pub?start=false&loop=false&delayms=3000"
+        },
+        {
+            "text": "Methods Worksheet",
+            "link": "https://docs.google.com/document/d/1W4xoMXcx_iQLh9XYvfG3Jo1Bf5PJf5OccLh84JRyNSo/pub"
+        },
+        {
+            "text": "Methods Worksheet Solutions",
+            "link": "https://docs.google.com/document/d/1hc4QudHlBE23Pr9SikxLL5i0IbjuJFMGtoO-uc38KgY/pub"
+        }
+        ],
+        "Homework": [
+        {
+            "text": "FracCalc"
+        }
+    ]
+    },
+    {
+        "Week": 15,
+        "Reading": "Ch 1 - 5",
+        "Resources": [
+        {
+            "text": "Slides",
+            "link": "https://docs.google.com/presentation/d/1H7yTMmPGEOaUDcJu_I3-JbgTFS0UjKElUQeemIYW4TA/pub?start=false&loop=false&delayms=3000"
+        },
+        {
+            "text": "Common Classes Worksheet",
+            "link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyZm5sQ3ZBTDlkNms/view?usp=sharing"
+        }
+        ],
+        "Homework": [
+        {
+            "text": "Finish FracCalc"
+        }
+    ]
     }
 ]

@@ -1,73 +1,75 @@
+$colors: (
+    "gray-dark"   : #42474C,
+    "gray-md" : #77797B,
+    "gray-md-light": #8f8f98,
+    "gray-light"  : #EDEDED,
+    "gray-xlight"  : #F6F6F6,
+    "green"   : #8BC63F,
+    "green-dark": #567B27,
+    "green-pale": #B6DA82,
+    "red"     : #CC1111,
+    "white"   : #FFFFFF,
+    "yellow"  : #FFC23C,
+    "blue"    : #35aaff,
+    "orange"  : #FF8A43,
+    "cream"   : #f8f0e6,
+    "brown"   : #9A8479,
+    "none"    : transparent
+);
+
 @import "reset";
-@import "config/init";
-@import "mixins/init";
 @import "base/init";
 @import "components/init";
 
 body {
-    color: $gray-dark;
-}
-
-a {
-    @extend .text-blue;
-    @extend .text-semibold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-hr {
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    margin: 0.5em 0;
+    min-width: 864px;
 }
 
 *::selection {
     background-color: transparent;
 }
 
-.round {
-    border-radius: 8px;
+a[href] {
+    color: map-get($colors, "blue");
+    font-weight: 400;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
-.video-arrow {
-    margin-top: 23px;
-    padding: 0;
+th {
+    cursor: pointer;
+    padding: 8px 35px 8px 14px;
 }
 
-.full-width {
-    width: 100%;
-    display: inline-block;
+td {
+    padding: 8px 28px 8px 14px;
 }
 
-.full-height {
-    height: 100%;
+td, th {
+    position: relative;
 }
 
-.auto-width {
-    width: auto;
+table li {
+    list-style: disc inside;
+    text-indent: -1em;
+    margin-left: 1em;
 }
 
-.auto-height {
-    height: auto;
+hr {
+    border: none;
+    margin: 0;
+    height: 1px;
 }
 
-.padding-0 {
-    padding: 0;
+.image-wrapper {
+    background-size: cover;
+    background-position: center;
 }
 
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-body .panel {
-    @extend .button-lg;
-    @extend .auto-height;
-    padding: 0 20px;
-    height: auto;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
