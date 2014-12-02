@@ -347,21 +347,11 @@
 	]
     },
     {
-	"Week": "",
+	"Week": "16",
 	"Reading": "",
 	"Resources": [
 		{
 			"text":"Thanksgiving Break!"
-		}
-	]
-    },
-    {
-        "Week": 16,
-        "Reading": "Ch 7",
-        "Resources": [
-		{
-			"text": "Slides",
-			"link": "https://docs.google.com/presentation/d/1hNzkKjEH0bP4nvjMB9C19YvO2jfM12u6Ig0KfMY23E0/pub?start=false&loop=false&delayms=3000"
 		}
 	]
     },
@@ -371,12 +361,22 @@
         "Resources": [
 		{
 			"text": "Slides",
-			"link": "https://docs.google.com/presentation/d/1UCn2vTokit8EktfHulW8kmPQSfvXgiOWJAv0ICBL8p8/pub?start=false&loop=false&delayms=3000"
+			"link": "https://docs.google.com/presentation/d/1hNzkKjEH0bP4nvjMB9C19YvO2jfM12u6Ig0KfMY23E0/pub?start=false&loop=false&delayms=3000"
 		}
 	]
     },
     {
         "Week": 18,
+        "Reading": "Ch 7",
+        "Resources": [
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1UCn2vTokit8EktfHulW8kmPQSfvXgiOWJAv0ICBL8p8/pub?start=false&loop=false&delayms=3000"
+		}
+	]
+    },
+    {
+        "Week": 19,
         "Reading": "Ch 1-5, 7",
         "Resources": [
 		{
