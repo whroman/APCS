@@ -55,7 +55,12 @@
                             <li
                                 ng-repeat="k in row[key]"
                             >
-                                <a href="{{k.link}}" target="_blank">{{k.text}}</a>
+                                <span ng-if="k.link === undefined">{{k.text}}</span>
+                                <a
+                                    ng-if="k.link !== undefined"
+                                    href="{{k.link}}"
+                                    target="_blank"
+                                >{{k.text}}</a>
                             </li>
                         </ul>
                     </td>
