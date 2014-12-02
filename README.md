@@ -1,7 +1,7 @@
 # [APCS](http://whroman.github.io/APCS/)
 
 Technologies used:
-    
+
 * [Sass](http://sass-lang.com/)
 * [Gulp](http://gulpjs.com/)
 * [Bower](http://bower.io)
@@ -76,7 +76,7 @@ root
     ├── js         // Nothing special
     ├── build      // Contains `built` versions of SCSS and JS files, along with sourcemaps
     └── scss
-        └── app.scss    // Only scss file that is compiled. Contains `@import`s for the rest of the scss 
+        └── init.scss    // Only scss file that is compiled. Contains `@import`s for the rest of the scss 
 ```
 
 ### Adding New JS Libraries
@@ -89,8 +89,8 @@ root
 ### Adding New JS Files
 
 * Declare the path to the new file in `[root]/Tasks/config/paths.js` as an Array item in `path.js.src`. The files will be concat'd in listed order.
-    
+
 
 ### Adding New SCSS Files
 
-* Include new stylesheets in `/Resources/scss/app.scss` using `@import "path/to/file.scss"`
+* Include new stylesheets in `/Resources/scss/init.scss` using `@import "relative/path/to/file.scss"`
