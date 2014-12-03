@@ -18,7 +18,7 @@ th {
 }
 
 tbody tr:not(:first-of-type) {
-    border-top: 1px solid $gray-xlight;
+    border-top: 1px solid map-get($colors, "gray-xlight");
 }
 
 .table-arrow {
@@ -32,14 +32,14 @@ tbody tr:not(:first-of-type) {
 }
 
 .selected {
-    background-color: $gray-dark;
+    background-color: map-get($colors, "gray-dark");
 
     .table-arrow {
         display: inline-block;
         border-left: .6em solid transparent;
         border-right: .6em solid transparent;
         border-bottom: 0 solid transparent;
-        border-top: 1em solid $gray-light;
+        border-top: 1em solid map-get($colors, "gray-light");
     }
 
     &.reversed {
@@ -47,7 +47,7 @@ tbody tr:not(:first-of-type) {
             display: inline-block;
             border-left: .6em solid transparent;
             border-right: .6em solid transparent;
-            border-bottom: 1em solid $gray-light;
+            border-bottom: 1em solid map-get($colors, "gray-light");
             border-top: 0 solid transparent;
         }
     }

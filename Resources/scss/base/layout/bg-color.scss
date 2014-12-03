@@ -1,0 +1,7 @@
+@include breakpoint($colors, background-color, "bg");
+
+@each $key, $color in $colors {
+    .bg-hover-#{$key}:hover {
+        background-color: $color;
+    }
+}

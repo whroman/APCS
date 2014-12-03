@@ -12,7 +12,7 @@ angular
 .config(function($locationProvider, $routeProvider) {
     var config = {
         root : {
-            templateUrl: 'Resources/ng-views/table.html',
+            templateUrl: 'Resources/ng-views/index.html',
             controller: "ControllerTable",
             resolve: {
             }

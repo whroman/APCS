@@ -1,39 +1,7 @@
-.text-white {
-    color: $white;
-}
+@include breakpoint($colors, color, "text");
 
-.text-black {
-    color: $black;
-}
-
-.text-gray-md-dark {
-    color: $gray-md-dark;
-}
-
-.text-gray-md {
-    color: $gray-md;
-}
-
-.text-gray-md-light {
-    color: $gray-md-light;
-}
-
-.text-blue {
-    color: $blue;
-}
-
-.text-blue-dark {
-    color: #2222d8;
-}
-
-.text-red {
-    color: $red;
-}
-
-.text-orange {
-    color: $orange;    
-}
-
-.text-brown {
-    color: $brown;
+@each $key, $color in $colors {
+    .text-hover-#{$key}:hover {
+        color: $color;
+    }
 }

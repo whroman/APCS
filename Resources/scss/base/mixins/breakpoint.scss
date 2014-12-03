@@ -1,0 +1,126 @@
+// @include breakpoint()
+// View bottom of this file for use cases and examples
+
+$mq-prefixes: (
+    small: "",
+    medium: "medium-",
+    large: "large-"
+);
+
+@mixin breakpoint ($size, $rules: "", $classPrefix: "") {
+    $sizeIsMap: length($size) > 1;
+    // Check whether $size is defined in $mq-prefixes
+    $sizeIsNull: map-get($mq-prefixes, $size) == null;
+    // If it isn't, assume that it is a class and create all media query versions of class
+    @if $sizeIsMap {
+        // For each media query...
+        @each $key, $mq-prefix in $mq-prefixes {
+            // And each item in $size, which is a map of values
+            @each $class, $value in $size {
+                $class: #{$mq-prefix + $classPrefix + "-" + $class};
+                @include breakpoint($key) {
+                    .#{$class} {
+                        @each $rule in $rules {
+                            #{$rule}: $value;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @else if $sizeIsNull {
+        $className: $size;
+        @each $key, $prefix in $mq-prefixes {
+            @include breakpoint($key) {
+                .#{$prefix}#{$className} {
+                    @content;
+                }
+            }
+        }
+    }
+    // Otherwise, apply content only to specified media query
+    @else if $size == small {
+      @content;
+    }
+    @else if $size == medium {
+        @media (min-width: 40.063em) { @content; }
+    }
+    @else if $size == large {
+        @media (min-width: 64.063em)  { @content; }
+    }
+}
+
+// `breakpoint` Usage
+// (1) $size: string that is a VALID key for `$mq-prefixes` && $rule: undefined
+// ================================
+// input:
+// @include breakpoint(medium) {
+//     display: block;
+// }
+// output:
+// @media all and (min-width: 40.063em) {
+//   display: block;
+// }
+
+// (2) $size: string that is an INVALID key for `$mq-prefixes` && $rule: undefined
+// ================================
+// input:
+// @include breakpoint(show) {
+//     display: block;
+// }
+// output:
+// @media all {
+//   .show {
+//     display: block;
+//   }
+// }
+// @media all and (min-width: 40.063em) {
+//   .medium-show {
+//     display: block;
+//   }
+// }
+// @media all and (min-width: 64.063em) {
+//   .large-show {
+//     display: block;
+//   }
+// }
+
+// (3) $size: scss map && $rule: string
+// ================================
+// input:
+// ```
+// $sizes: (
+//     "text-xxxs": 13px,
+//     "text-xxs": 16px
+// );
+// @include breakpoint($sizes, font-size);
+// ```
+// output:
+// .text-xxxs {
+//   font-size: 13px;
+// }
+
+// .text-xxs {
+//   font-size: 16px;
+// }
+
+// @media (min-width: 40.063em) {
+//   .medium-text-xxxs {
+//     font-size: 13px;
+//   }
+// }
+// @media (min-width: 40.063em) {
+//   .medium-text-xxs {
+//     font-size: 16px;
+//   }
+// }
+// @media (min-width: 64.063em) {
+//   .large-text-xxxs {
+//     font-size: 13px;
+//   }
+// }
+// @media (min-width: 64.063em) {
+//   .large-text-xxs {
+//     font-size: 16px;
+//   }
+// }

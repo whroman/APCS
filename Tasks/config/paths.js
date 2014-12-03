@@ -49,7 +49,8 @@ path.js = {
     src     : [
         path.root.js + 'app/app.js',
         path.root.js + 'app/controllers/table.js',
-        path.root.js + 'app/collections/table/index.js'
+        path.root.js + 'app/collections/table/index.js',
+        path.root.js + 'app/directives/table.js',
     ]
 };
 

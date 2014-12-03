@@ -1,7 +1,7 @@
 # [APCS](http://whroman.github.io/APCS/)
 
 Technologies used:
-    
+
 * [Sass](http://sass-lang.com/)
 * [Gulp](http://gulpjs.com/)
 * [Bower](http://bower.io)
@@ -10,7 +10,7 @@ Technologies used:
 ##Application
 
 ### Requirements
-To work on the front-end code of the application, you'll need to have the following packages installed before continuing.
+To work on the front-end code of the application, you'll need to have the following CLIs installed before continuing.
 
 * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
 * [Gulp](http://gulpjs.com/): Run `[sudo] npm install -g gulp`
@@ -18,6 +18,7 @@ To work on the front-end code of the application, you'll need to have the follow
 * [Ruby](https://www.ruby-lang.org/en/installation/): Comes installed on Macs.
 * [Sass](http://sass-lang.com/install) : Run `[sudo] gem install sass`. Version 3.3 or higher is required due to sourcemap support
 
+Then, run `sudo npm install` within `/Tasks` to install the libraries listed in `package.json`.
 
 \* Only necessary if user wants to add third-party libraries/frameworks to project
 
@@ -75,7 +76,7 @@ root
     ├── js         // Nothing special
     ├── build      // Contains `built` versions of SCSS and JS files, along with sourcemaps
     └── scss
-        └── app.scss    // Only scss file that is compiled. Contains `@import`s for the rest of the scss 
+        └── init.scss    // Only scss file that is compiled. Contains `@import`s for the rest of the scss 
 ```
 
 ### Adding New JS Libraries
@@ -88,8 +89,8 @@ root
 ### Adding New JS Files
 
 * Declare the path to the new file in `[root]/Tasks/config/paths.js` as an Array item in `path.js.src`. The files will be concat'd in listed order.
-    
+
 
 ### Adding New SCSS Files
 
-* Include new stylesheets in `/Resources/scss/app.scss` using `@import "path/to/file.scss"`
+* Include new stylesheets in `/Resources/scss/init.scss` using `@import "relative/path/to/file.scss"`

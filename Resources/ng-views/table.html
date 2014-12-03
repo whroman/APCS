@@ -16,9 +16,10 @@
                     <th
                         ng-repeat="key in table.keys"
                         ng-click="table.order.set(key)"
-                        class="bg-gray-md-light text-white text-thin"
+                        class="text-white text-thin"
                         ng-class="{
-                            selected    : table.order.latestInput === key,
+                            'bg-gray-md-light' : table.order.latestInput !== key,
+                            'selected bg-gray-dark'   : table.order.latestInput === key,
                             reversed    : table.order.latestInput === key && table.order.reverse
                         }"
                     >   
@@ -33,40 +34,33 @@
                     class="text-block text-xxs"
                     ng-class="{
                         'bg-gray-xlight': table.currentWeek === row.Week,
-                        'bg-white-almost': table.currentWeek !== row.Week                        
+                        'bg-white-almost': table.currentWeek !== row.Week
                     }"
                     ng-repeat="
-                        row in table.all | orderBy   
-                            : table.order.value 
+                        row in table.all | orderBy
+                            : table.order.value
                             : table.order.reverse
                     "
                     >
 
-                    <td 
-                        ng-repeat="key in table.keys"
-                        >
-                        <span 
-                            ng-if="typeOf(row[key]) != 'object'">
+                    <td ng-repeat="key in table.keys">
+                        <span
+                            ng-if="!isArray(row[key])">
                             {{ row[key] }}
                         </span>
 
                         <ul
-                            ng-if="typeOf(row[key]) == 'object' "
-                            ng-repeat="k in row[key] track by $index"
-                        >
-                            <li>
-                                <span 
-                                    ng-if="!k.link"
-                                    >
-                                    {{k.text}}
-                                </span>
-                                <a 
-                                    ng-if="!!k.link"
-                                    href="{{k.link}}" 
+                            ng-if="isArray(row[key]) "
+                            >
+                            <li
+                                ng-repeat="k in row[key]"
+                            >
+                                <span ng-if="k.link === undefined">{{k.text}}</span>
+                                <a
+                                    ng-if="k.link !== undefined"
+                                    href="{{k.link}}"
                                     target="_blank"
-                                    >
-                                    {{k.text}}
-                                </a>
+                                >{{k.text}}</a>
                             </li>
                         </ul>
                     </td>
