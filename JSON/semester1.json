@@ -1,4 +1,3 @@
-
 [
     {
         "Week": 1,
@@ -32,8 +31,8 @@
                 "text": "Slides",
                 "link": "https://docs.google.com/presentation/d/1hI8Y4uAbgcWpM3QAl4fOor8LQNbVU1aGIdNRQc9eYKU/pub?start=false&loop=false&delayms=3000#slide=id.p"
             }
-    ],
-    "Quiz":
+	],
+	"Quiz":
         [
             {
                 "text": "1 Solutions",
@@ -220,11 +219,11 @@
             {
                 "text":"Slides",
                 "link":"https://docs.google.com/presentation/d/1BkOsjzKgzNZYZ75f1tvyvzm2ztlFZBkYxPb-Wlg3pe8/pub?start=false&loop=false&delayms=3000"
-        },
+	    },
             {
                 "text":"Fractional Calculator Starter Code",
                 "link":"https://docs.google.com/document/d/13juX6IQOFOK5Zaf-8s2b1xGSCoY-TMipw1QqQpOKmQ8/pub"
-        }
+	    }
         ],
         "Homework": [
             {
@@ -237,153 +236,164 @@
         "Week": 11,
         "Reading": "Ch 1-5",
         "Resources": [
-        {
-            "text": "Hint",
-            "link": "https://docs.google.com/document/d/1TacUGlxDEf6l7G2uqXHT5nLQPnsdLip4NtOe6YWWzG8/pub"
-        }
+		{
+			"text": "Hint",
+			"link": "https://docs.google.com/document/d/1TacUGlxDEf6l7G2uqXHT5nLQPnsdLip4NtOe6YWWzG8/pub"
+		}
         ]
     },
     {
         "Week": 12,
         "Reading": "Ch 1-5",
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/1lsQ0vDGrT2Qb9HtAQBhULLRb8De3iH3J6RKfnmYdgC8/pub?start=false&loop=false&delayms=3000"
-        },
-        {
-            "text": "Boolean Logic Worksheet",
-            "link": "https://docs.google.com/document/d/1ajjbdwXzfGuS4CW7nYQ6i9DHdIODiWCauTLjBtJBZHw/pub"
-        },
-        {
-            "text": "Boolean Logic Solutions",
-            "link": "https://docs.google.com/document/d/1FwBcvdxqp6Jj8MEBPQP4GaWPC2lmzFkbBG7cHD5v_6k/pub"
-        }
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1lsQ0vDGrT2Qb9HtAQBhULLRb8De3iH3J6RKfnmYdgC8/pub?start=false&loop=false&delayms=3000"
+		},
+		{
+			"text": "Boolean Logic Worksheet",
+			"link": "https://docs.google.com/document/d/1ajjbdwXzfGuS4CW7nYQ6i9DHdIODiWCauTLjBtJBZHw/pub"
+		},
+		{
+			"text": "Boolean Logic Solutions",
+			"link": "https://docs.google.com/document/d/1FwBcvdxqp6Jj8MEBPQP4GaWPC2lmzFkbBG7cHD5v_6k/pub"
+		}
         ],
         "Homework": [
-        {
-            "text": "Ch 1 Review",
-            "link": "https://docs.google.com/document/d/1xK6qewLPnMFL5dr_vhCjd07gjKqdXTS7xQcq9Ffn0DE/pub"
-        },
-        {
-            "text": "Ch 1 Review Solutions",
-            "link": "https://docs.google.com/document/d/1F5IHwd3KsA-ptDJIJNzh9ab1n6Rf9baZLvRWMScSRKg/pub"
-        },
-        {
-            "text": "Conditional and Repetative Statements Review",
-            "link": "https://docs.google.com/document/d/1V-D_nhiwNFH8Xvp-ae04B1FeNybqYFmrWk449ib2AHc/pub"
-        }
-    ]
+		{
+			"text": "Ch 1 Review",
+			"link": "https://docs.google.com/document/d/1xK6qewLPnMFL5dr_vhCjd07gjKqdXTS7xQcq9Ffn0DE/pub"
+		},
+		{
+			"text": "Ch 1 Review Solutions",
+			"link": "https://docs.google.com/document/d/1F5IHwd3KsA-ptDJIJNzh9ab1n6Rf9baZLvRWMScSRKg/pub"
+		},
+		{
+			"text": "Conditional and Repetative Statements Review",
+			"link": "https://docs.google.com/document/d/1V-D_nhiwNFH8Xvp-ae04B1FeNybqYFmrWk449ib2AHc/pub"
+		}
+	]
     },
     {
         "Week": 13,
         "Reading": "Ch 1 - 5",
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/15KGc1s-awhlLoQsGkUw1SDnd9jJycIxVWP1Cqlic12o/pub?start=false&loop=false&delayms=3000"
-        }
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/15KGc1s-awhlLoQsGkUw1SDnd9jJycIxVWP1Cqlic12o/pub?start=false&loop=false&delayms=3000"
+		}
         ],
         "Homework": [
-        {
-            "text": "Study for test! Ch 1 - 5"
-        }
-    ],
-    "Quiz":
+		{
+			"text": "Study for test! Ch 1 - 5"
+		}
+	],
+	"Quiz":
         [
             {
-        "text": "Test questions",
-        "link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyX04zdXY0dVRPN0FxQW9FUS1zNjZrSkhxNkhn/view?usp=sharing"
-        },
-        {
-        "text": "Solutions",
-        "link": "https://docs.google.com/spreadsheets/d/1gu_R54AWlBG1_9hPlPz0424wt1flEWviez74nJiwFgM/pubhtml"
-        }
-    ]
+		"text": "Test questions",
+		"link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyX04zdXY0dVRPN0FxQW9FUS1zNjZrSkhxNkhn/view?usp=sharing"
+	    },
+	    {
+		"text": "Solutions",
+		"link": "https://docs.google.com/spreadsheets/d/1gu_R54AWlBG1_9hPlPz0424wt1flEWviez74nJiwFgM/pubhtml"
+	    }
+	]
     },
     {
         "Week": 14,
         "Reading": "Ch 1 - 5",
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/1FawycVvevGnJq4nUThdiMhm28cxIH8wfPAI8hfULLZ0/pub?start=false&loop=false&delayms=3000"
-        },
-        {
-            "text": "Methods Worksheet",
-            "link": "https://docs.google.com/document/d/1W4xoMXcx_iQLh9XYvfG3Jo1Bf5PJf5OccLh84JRyNSo/pub"
-        },
-        {
-            "text": "Methods Worksheet Solutions",
-            "link": "https://docs.google.com/document/d/1hc4QudHlBE23Pr9SikxLL5i0IbjuJFMGtoO-uc38KgY/pub"
-        }
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1FawycVvevGnJq4nUThdiMhm28cxIH8wfPAI8hfULLZ0/pub?start=false&loop=false&delayms=3000"
+		},
+		{
+			"text": "Methods Worksheet",
+			"link": "https://docs.google.com/document/d/1W4xoMXcx_iQLh9XYvfG3Jo1Bf5PJf5OccLh84JRyNSo/pub"
+		},
+		{
+			"text": "Methods Worksheet Solutions",
+			"link": "https://docs.google.com/document/d/1hc4QudHlBE23Pr9SikxLL5i0IbjuJFMGtoO-uc38KgY/pub"
+		}
         ],
         "Homework": [
-        {
-            "text": "FracCalc"
-        }
-    ]
+		{
+			"text": "FracCalc"
+		}
+	]
     },
     {
         "Week": 15,
         "Reading": "Ch 1 - 5",
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/1H7yTMmPGEOaUDcJu_I3-JbgTFS0UjKElUQeemIYW4TA/pub?start=false&loop=false&delayms=3000"
-        },
-        {
-            "text": "Common Classes Worksheet",
-            "link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyZm5sQ3ZBTDlkNms/view?usp=sharing"
-        },
-        {
-            "text": "Common Classes Answers",
-            "link": "https://docs.google.com/spreadsheets/d/1DwuKSys_h-Cl5wNGHfOFcsDl7JSxL5AQMiuKcAICy2s/pubhtml"
-        }
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1H7yTMmPGEOaUDcJu_I3-JbgTFS0UjKElUQeemIYW4TA/pub?start=false&loop=false&delayms=3000"
+		},
+		{
+			"text": "Common Classes Worksheet",
+			"link": "https://drive.google.com/file/d/0B8H2Lh_SI1xyZm5sQ3ZBTDlkNms/view?usp=sharing"
+		},
+		{
+			"text": "Common Classes Answers",
+			"link": "https://docs.google.com/spreadsheets/d/1DwuKSys_h-Cl5wNGHfOFcsDl7JSxL5AQMiuKcAICy2s/pubhtml"
+		}
         ],
         "Homework": [
-        {
-            "text": "Finish FracCalc"
-        }
-    ]
+		{
+			"text": "Finish FracCalc"
+		}
+	]
     },
     {
-    "Week": 16,
-    "Reading": "",
-    "Resources": [
-        {
-            "text":"Thanksgiving Break!"
-        }
-    ]
+	"Week": 16,
+	"Reading": "",
+	"Resources": [
+		{
+			"text":"Thanksgiving Break!"
+		}
+	]
     },
     {
         "Week": 17,
         "Reading": "Ch 7",
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/1hNzkKjEH0bP4nvjMB9C19YvO2jfM12u6Ig0KfMY23E0/pub?start=false&loop=false&delayms=3000"
-        }
-    ]
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1hNzkKjEH0bP4nvjMB9C19YvO2jfM12u6Ig0KfMY23E0/pub?start=false&loop=false&delayms=3000"
+		}
+	],
+        "Homework": [
+		{
+			"text": "PracticeIt!",
+			"link": "https://docs.google.com/document/d/1SdPC79zmCyUTYZC0tsweeY9KQHJkQPNezpk_BCxEkFM/pub"
+		}
+	],
+        "Quiz": [
+		{
+			"text": "7.1, 7.2 Quiz"
+		}
+	]
     },
     {
         "Week": 18,
         "Reading": "Ch 7",
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/1UCn2vTokit8EktfHulW8kmPQSfvXgiOWJAv0ICBL8p8/pub?start=false&loop=false&delayms=3000"
-        }
-    ]
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/1UCn2vTokit8EktfHulW8kmPQSfvXgiOWJAv0ICBL8p8/pub?start=false&loop=false&delayms=3000"
+		}
+	]
     },
     {
         "Week": 19,
         "Reading": "Ch 1-5, 7",
         "Resources": [
-        {
-            "text": "Slides",
-            "link": "https://docs.google.com/presentation/d/13C8TeUnbW2_FW9ZIq_omE31TQTIZbBNzdcCxtIlFJ-k/pub?start=false&loop=false&delayms=3000"
-        }
-    ]
+		{
+			"text": "Slides",
+			"link": "https://docs.google.com/presentation/d/13C8TeUnbW2_FW9ZIq_omE31TQTIZbBNzdcCxtIlFJ-k/pub?start=false&loop=false&delayms=3000"
+		}
+	]
     }
 ]
