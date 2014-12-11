@@ -372,7 +372,7 @@
 	],
         "Quiz": [
 		{
-			"text": "7.1, 7.2 Quiz"
+			"text": "Study for 7.1, 7.2 Quiz"
 		}
 	]
     },
@@ -384,6 +384,22 @@
 			"text": "Slides",
 			"link": "https://docs.google.com/presentation/d/1UCn2vTokit8EktfHulW8kmPQSfvXgiOWJAv0ICBL8p8/pub?start=false&loop=false&delayms=3000"
 		}
+	],
+        "Quiz": [
+		{
+			"text": "7.1, 7.2 Quiz",
+			"link": "https://docs.google.com/document/d/1KsRLO8ogJ8zp4j-Aj-F5QDE5yIIZ_zOtOBi1D4havt0/pub"
+		},
+		{
+			"text": "7.1, 7.2 Quiz Solutions",
+			"link": "https://docs.google.com/document/d/1cI4Jop4hevW_pDxqCqcCxz4daF3-peaEzRyZeGzWuX4/pub"
+		}
+	],
+        "Homework": [
+            {
+                "text": "PracticeIt!",
+                "link": "https://docs.google.com/document/d/1_5vo0egV_NuJaVshsUDSoae4E-6kbsXducxaEkfnkgg/pub"
+            }
 	]
     },
     {
